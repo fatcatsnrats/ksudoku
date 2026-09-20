@@ -21,7 +21,7 @@ body:
     attributes:
       label: Files
       description: Files
-        `hugo.toml`
+      placeholder: "`hugo.toml`"
     validations:
       required: true
 
@@ -39,6 +39,7 @@ body:
     attributes:
       label: Track
       options:
+      - bug
     validations:
       required: true
 
