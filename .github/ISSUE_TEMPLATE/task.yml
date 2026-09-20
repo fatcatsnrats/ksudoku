@@ -21,7 +21,7 @@ body:
     attributes:
       label: Files
       description: Files
-      placeholder: `hugo.toml`
+      placeholder: "`hugo.toml`"
     validations:
       required: true
 
