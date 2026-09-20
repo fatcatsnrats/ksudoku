@@ -39,7 +39,10 @@ body:
     attributes:
       label: Track
       options:
+      - feature
       - bug
+      - css
+      - session
     validations:
       required: true
 
