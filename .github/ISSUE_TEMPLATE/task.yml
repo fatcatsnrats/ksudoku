@@ -1,0 +1,49 @@
+name: Task
+description: A unit of work. Should be doable in one sitting.
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep it small. If this takes more than ~4 hours, it's two tickets.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What to do
+      description: The actual work, concretely.
+      placeholder: Add calculator to puzzle webpage
+    validations:
+      required: true
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Files
+      description: Files
+        `hugo.toml`
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: One or two sentences. How do we know it's finished?
+      placeholder: An empty cell always reserves a 3x3 candidate layout.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options:
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related
+      description: Other issues, PRs, or links. Optional.
